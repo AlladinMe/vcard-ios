@@ -1,16 +1,15 @@
 {
-  "name": "vcard-ios",
+  "name": "v-card-ios",
   "version": "1.0.0",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "expo build",
+    "start": "expo start",
+    "install": "npm install"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
   "dependencies": {
-    "@capacitor/core": "^7.0.1",
-    "@capacitor/ios": "^7.0.1"
+    "@capacitor/core": "^5.0.0",
+    "@capacitor/ios": "^5.0.0",
+    "react": "18.0.0",
+    "react-native": "0.71.0"
   }
 }
