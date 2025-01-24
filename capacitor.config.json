@@ -1,0 +1,13 @@
+{
+  "appId": "com.vcard.app",
+  "appName": "V-Card",
+  "webDir": "www",
+  "bundledWebRuntime": false,
+  "server": {
+    "url": "https://v-card.ro/login",
+    "cleartext": true
+  },
+  "ios": {
+    "scheme": "https"
+  }
+}
